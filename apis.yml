@@ -1,8 +1,13 @@
 aid: breathwrk
 name: Breathwrk
-description: 'Breathwrk is a company surfaced as a portfolio company of dcm-ventures and added to the
-  API Evangelist network as a stub for enrichment. Sector: consumer. This profile is a lead awaiting the
-  enrichment pipeline.'
+description: 'Breathwrk is a consumer health and performance app offering guided breathing
+  exercises to reduce stress, improve sleep, boost energy, and enhance athletic and social
+  performance. It packages more than 50 science-backed breathing techniques with music, haptics,
+  coach-led classes, and progress tracking across calming, sleep, energizing, performance, and
+  social categories. Breathwrk is available on iOS and Android with free and Pro subscription
+  tiers plus a Breathwrk for Business program for organizations, and the company is now part of
+  Peloton. Breathwrk publishes no public API, SDK, or developer program; this profile is maintained
+  by API Evangelist and reflects the company''s live web presence and security posture.'
 url: https://raw.githubusercontent.com/api-evangelist/breathwrk/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -10,12 +15,31 @@ x-backed-by:
 - dcm-ventures
 x-tier: stub
 x-tier-reason: portfolio-lead
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-18'
+image: https://cdn.prod.website-files.com/63e28156e116e460c9f99ae1/63e4f8df05949a8f6954be53_webclip.png
 tags:
 - Company
 - Consumer
+- Health
+- Wellness
+- Breathing
+- Mental Health
+- Fitness
+- Mobile App
+- Peloton
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -23,5 +47,28 @@ maintainers:
 - FN: APIs.json
   email: info@apis.io
 common:
+- type: DomainSecurity
+  url: security/breathwrk-domain-security.yml
 - type: Website
   url: https://www.breathwrk.com/
+- type: Support
+  url: https://www.breathwrk.com/help
+- type: Blog
+  url: https://www.breathwrk.com/blog
+- type: TermsOfService
+  url: https://www.breathwrk.com/terms-and-conditions
+- type: PrivacyPolicy
+  url: https://www.breathwrk.com/privacy-policy
+- type: Business
+  url: https://www.breathwrk.com/business
+- type: Application
+  name: Breathwrk for iOS
+  url: https://apps.apple.com/us/app/breathwrk-breathing-exercises/id1481804500
+- type: Application
+  name: Breathwrk for Android
+  url: https://play.google.com/store/apps/details?id=com.breathwrk.android
+x-enrichment:
+  date: '2026-07-19'
+  status: backfilled
+  pass: local-v1
+  note: backfilled from .gitignore signal + verified work evidence
